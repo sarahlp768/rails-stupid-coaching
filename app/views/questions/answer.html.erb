@@ -1,0 +1,15 @@
+<h1> Stupid Coaching </h1>
+
+<div id="question" class="bg-light-subtle card w-75 mb-3 mx-3 px-3 ms">
+<p> <%=@question%> </p>
+<p class="fst-italic"> - You </p>
+</div>
+
+<div id="reply" class="bg-danger-subtle card w-75 mb-3 mx-3 px-3">
+<p> <%=@reply%> </p>
+<p class="fst-italic"> - Your Coach </p>
+</div>
+
+<div id="askcoach" class="mx-3">
+<%= link_to "Ask your Coach anything", ask_path %>
+</div>
